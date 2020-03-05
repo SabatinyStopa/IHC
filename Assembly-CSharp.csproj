@@ -45,10 +45,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BlinkUI.cs" />
      <Compile Include="Assets\Scripts\CreditsManager.cs" />
-     <Compile Include="Assets\Scripts\MoveUI.cs" />
-     <Compile Include="Assets\Scripts\PingPongUI.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\BehaviorUI.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\BlinkUI.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\ChangeScene.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\FadeIn.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\FadeInOut.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\GradientUI.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\Helper.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\MoveOffsetUI.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\MovePingPongUI.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\MoveUI.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\RotateUI.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\ScalePingPongUI.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\ScalePulseUI.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\ScaleUI.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Helpers\ShakeUI.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Managers\ScreenManager.cs" />
      <None Include="Assets\Resources\credits.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/0040961813059/Documents/GitHub/IHC/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
