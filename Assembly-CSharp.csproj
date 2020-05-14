@@ -66,6 +66,9 @@
      <Compile Include="Assets\Scripts\IHC Scripts\Managers\Pause.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\Managers\ScreenManager.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\UIs\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\MinimapCameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\StayInsideMinimapCircle.cs" />
      <None Include="Assets\Resources\credits.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
