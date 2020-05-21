@@ -45,7 +45,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Dialog\DialogManager.cs" />
      <Compile Include="Assets\Scripts\CreditsManager.cs" />
+     <Compile Include="Assets\Scripts\DialogTrigger.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\Helpers\BehaviorUI.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\Helpers\BlinkUI.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\Helpers\ChangeScene.cs" />

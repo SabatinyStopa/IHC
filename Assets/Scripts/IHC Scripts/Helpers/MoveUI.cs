@@ -50,9 +50,10 @@ public class MoveUI : MonoBehaviour, BehaviorUI
     private void OnEnable()
     {
         if (m_AutoEnable)
-        {
             Enable();
-        }
+        else
+            Disable();
+        
     }
 
     private void Update()
