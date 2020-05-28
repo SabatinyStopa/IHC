@@ -67,7 +67,9 @@
      <Compile Include="Assets\Scripts\IHC Scripts\Managers\GameOver.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\Managers\Pause.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\Managers\ScreenManager.cs" />
+     <Compile Include="Assets\Scripts\IHC Scripts\Managers\SelectLevelManager.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\UIs\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\LevelButton.cs" />
      <Compile Include="Assets\Scripts\MinimapCameraFollow.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\StayInsideMinimapCircle.cs" />
