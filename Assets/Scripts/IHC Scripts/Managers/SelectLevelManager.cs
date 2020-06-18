@@ -20,7 +20,11 @@ public class SelectLevelManager : MonoBehaviour{
 
     [Header("Details")]
     public Image m_DetailsImage;
+    public Image m_LockedImage;
+    public Text m_DetailsTitle;
     public Text m_DetailsDescription;
+
+    public string LevelSelected {get; set;}
 
     void Start() {
         foreach (Level level in m_Levels){
@@ -30,7 +34,13 @@ public class SelectLevelManager : MonoBehaviour{
             
             var script = button.GetComponent<LevelButton>();
             script.SetLevel(level);
+            // script.ShowDetails();
         }    
+    }
+
+    public void PlayLevelSelected(){
+        if(LevelSelected.Length != null)
+            ScreenManager.Instance.LoadLevelLoading(LevelSelected);
     }
 }
 
