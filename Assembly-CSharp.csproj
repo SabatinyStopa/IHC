@@ -46,6 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Dialog\DialogManager.cs" />
+     <Compile Include="Assets\GameSettings.cs" />
      <Compile Include="Assets\Scripts\CreditsManager.cs" />
      <Compile Include="Assets\Scripts\DialogTrigger.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\Helpers\BehaviorUI.cs" />
