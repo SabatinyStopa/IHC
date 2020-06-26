@@ -2559,6 +2559,7 @@ MonoBehaviour:
   m_Mixer: {fileID: 24100000, guid: 5e3cbfe1352f0d446adffbe64616864a, type: 2}
   m_MusicSlider: {fileID: 727949506}
   m_SfxSlider: {fileID: 1321054506}
+  m_BrightnessSlider: {fileID: 1117172485}
   m_Brightness: 0.5
   m_AmbientLight: {r: 1, g: 1, b: 1, a: 1}
   m_AmbientDark: {r: 0, g: 0, b: 0, a: 1}

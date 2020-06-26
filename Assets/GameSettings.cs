@@ -37,6 +37,7 @@ public class GameSettings : MonoBehaviour{
         m_MusicSlider.value = PlayerPrefs.GetFloat("musicVolume", 0.75f);
         m_SfxSlider.value = PlayerPrefs.GetFloat("sfxVolume", 0.75f);
         m_Brightness = PlayerPrefs.GetFloat("brightness", 0.5f);
+        m_BrightnessSlider.value = m_Brightness;
     }
 
     private void OnDisable() {
