@@ -3354,6 +3354,7 @@ GameObject:
   - component: {fileID: 1629970017}
   - component: {fileID: 1629970021}
   - component: {fileID: 1629970016}
+  - component: {fileID: 1629970022}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -3444,7 +3445,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629970015}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.1, y: 0.5, z: 0.4}
+  m_LocalPosition: {x: 5.1, y: 0.5, z: 3.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1246137033}
@@ -3471,6 +3472,19 @@ MonoBehaviour:
       m_Voice: {fileID: 0}
     - m_Text: Macacos!
       m_Voice: {fileID: 0}
+--- !u!114 &1629970022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629970015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12fc62dc9e5a48f44b587d9a7d51b275, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Life: 0
 --- !u!1 &1720598430
 GameObject:
   m_ObjectHideFlags: 0
@@ -3482,6 +3496,7 @@ GameObject:
   - component: {fileID: 1720598432}
   - component: {fileID: 1720598431}
   - component: {fileID: 1720598433}
+  - component: {fileID: 1720598434}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -3530,6 +3545,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HealthBar: {fileID: 1495887087}
   m_GameOver: {fileID: 663915700}
+--- !u!114 &1720598434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720598430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97375433e56ec934da027227dc61bbd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1741138476
 GameObject:
   m_ObjectHideFlags: 0

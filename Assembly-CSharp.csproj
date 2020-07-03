@@ -49,6 +49,7 @@
      <Compile Include="Assets\GameSettings.cs" />
      <Compile Include="Assets\Scripts\CreditsManager.cs" />
      <Compile Include="Assets\Scripts\DialogTrigger.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\Helpers\BehaviorUI.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\Helpers\BlinkUI.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\Helpers\ChangeScene.cs" />
@@ -70,10 +71,14 @@
      <Compile Include="Assets\Scripts\IHC Scripts\Managers\ScreenManager.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\Managers\SelectLevelManager.cs" />
      <Compile Include="Assets\Scripts\IHC Scripts\UIs\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\ISerializable.cs" />
      <Compile Include="Assets\Scripts\LevelButton.cs" />
      <Compile Include="Assets\Scripts\MinimapCameraFollow.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\SaveGameManager.cs" />
      <Compile Include="Assets\Scripts\StayInsideMinimapCircle.cs" />
+     <None Include="Assets\save.txt" />
+     <None Include="Assets\JsonDotNet\link.xml" />
      <None Include="Assets\Resources\credits.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -260,6 +265,9 @@
  </Reference>
  <Reference Include="UnityEditor">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b4/Editor/Data/Managed/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Projetos unity/IHC/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b4/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
