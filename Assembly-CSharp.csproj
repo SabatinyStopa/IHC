@@ -73,10 +73,14 @@
      <Compile Include="Assets\Scripts\IHC Scripts\UIs\HealthBar.cs" />
      <Compile Include="Assets\Scripts\ISerializable.cs" />
      <Compile Include="Assets\Scripts\LevelButton.cs" />
+     <Compile Include="Assets\Scripts\Localizations\TextKeyUI.cs" />
+     <Compile Include="Assets\Scripts\Localizations\TextManager.cs" />
      <Compile Include="Assets\Scripts\MinimapCameraFollow.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\SaveGameManager.cs" />
      <Compile Include="Assets\Scripts\StayInsideMinimapCircle.cs" />
+     <None Include="Assets\Resources\portuguese.txt" />
+     <None Include="Assets\Resources\English.txt" />
      <None Include="Assets\save.txt" />
      <None Include="Assets\JsonDotNet\link.xml" />
      <None Include="Assets\Resources\credits.txt" />
